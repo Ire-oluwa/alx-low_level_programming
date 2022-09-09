@@ -6,9 +6,8 @@
  */
 int main(void)
 {
-int i;
 char al = 'a';
-for (i = 97; al <= 'z'; i++)
+for (al = 97; al <= 122; c++)
 {
 putchar(al);
 }
