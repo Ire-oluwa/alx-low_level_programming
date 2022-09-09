@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-char al = 'a';
-for (al = 97; al <= 122; c++)
+int i;
+char al = 'abcdefghijklmnopqrstuvwxyz';
+for (i = 0; i <= 26; i++)
 {
-putchar(al);
+putchar(al[i]);
 }
 putchar('\n');
 return (0);
