@@ -1,6 +1,6 @@
 /**
- * main - Entry point
- *
+ * main - Determines whether a number is positive, negative or zero
+ * 
  * Return - always 0 (Success)
  */
 #include<stdlib.h>
