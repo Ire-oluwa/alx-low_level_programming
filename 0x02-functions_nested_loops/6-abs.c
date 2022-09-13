@@ -9,11 +9,11 @@
  * Return: absolute value
  */
 
-int _abs(i)
+int _abs(int i)
 {
 if (i > 0)
 {
-returns (i);
+return (i);
 }
 else
 {
