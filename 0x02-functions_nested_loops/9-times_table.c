@@ -20,7 +20,7 @@ operator = i * j;
 _putchar(44);
 _putchar(32);
 
-if (op <= 9)
+if (operator <= 9)
 {
 _putchar(32);
 _putchar(operator + 48);
