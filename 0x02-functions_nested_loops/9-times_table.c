@@ -16,7 +16,7 @@ _putchar(48);
 
 for (j = 1; j <= 9; j++)
 {
-operator = a * b;
+operator = i * j;
 _putchar(44);
 _putchar(32);
 
