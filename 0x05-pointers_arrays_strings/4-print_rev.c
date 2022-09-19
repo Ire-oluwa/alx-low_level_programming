@@ -12,10 +12,6 @@ int i = 0;
 
 for (i--; s[i] == '\0'; i--)
 {
-if (s[i] == '\0')
-{
-continue;
-}
 putchar(*(s + i));
 }
 putchar('\n');
