@@ -21,7 +21,7 @@ else
 {
 j = (i - 1) / 2;
 }
-for(j--; j < i; j++)
+for (j--; j < i; j++)
 {
 putchar(*(str + j));
 }
