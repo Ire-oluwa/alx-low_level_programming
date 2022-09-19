@@ -17,7 +17,7 @@ for (i = 0; s[i] != '\0'; i++)
 count += i;
 }
 
-for (red = count; red >= 0; red--)
+for (red = count; red != '\0'; red--)
 {
 putchar(*(s + red));
 }
