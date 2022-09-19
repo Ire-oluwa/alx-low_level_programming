@@ -16,7 +16,7 @@ for (i = 0; s[i] != '\0'; i++)
 count += i;
 }
 
-for (count--; count >= 0; count--)
+for (count += 1; count >= 0; count--)
 {
 if (s[count] != '\0')
 {
