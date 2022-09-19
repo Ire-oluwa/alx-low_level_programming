@@ -17,9 +17,13 @@ for (i = 0; s[i] != '\0'; i++)
 count += i;
 }
 
-for (red = count; red != '\0'; red--)
+for (red = count; red >= 0; red--)
+{
+if (s[red] != '\0')
 {
 putchar(*(s + red));
+}
+
 }
 putchar('\n');
 }
