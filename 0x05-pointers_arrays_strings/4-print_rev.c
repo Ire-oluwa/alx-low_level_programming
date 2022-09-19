@@ -10,18 +10,17 @@ void print_rev(char *s)
 {
 int i;
 int count = 0;
-int red;
 
 for (i = 0; s[i] != '\0'; i++)
 {
 count += i;
 }
 
-for (red = (count - 2); red >= 0; red--)
+for (count--; count >= 0; count--)
 {
-if (s[red] != '\0')
+if (s[count] != '\0')
 {
-putchar(*(s + red));
+putchar(*(s + count));
 }
 
 }
