@@ -20,7 +20,7 @@ for (count--; count >= 0; count--)
 {
 if (s[count] != '\0')
 {
-putchar(*(s + count));
+putchar(s[count]);
 }
 
 }
