@@ -12,6 +12,10 @@ int i = 0;
 
 for (i--; i >= 0; i--)
 {
+if (s[i] == '\0')
+{
+break;
+}
 putchar(*(s + i));
 }
 putchar('\n');
