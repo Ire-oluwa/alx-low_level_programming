@@ -8,10 +8,9 @@
  */
 void print_rev(char *s)
 {
-int i;
-int a = (sizeof(s)/sizeof(s[0]));
+int i = 0;
 
-for (i = a; i >= 0; i--)
+for (i --; i >= 0; i--)
 {
 putchar(s[i]);
 }
