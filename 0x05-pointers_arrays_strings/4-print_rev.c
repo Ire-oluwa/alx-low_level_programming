@@ -14,7 +14,7 @@ for (i--; i >= 0; i--)
 {
 if (s[i] == '\0')
 {
-break;
+continue;
 }
 putchar(*(s + i));
 }
