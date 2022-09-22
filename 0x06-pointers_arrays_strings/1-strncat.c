@@ -27,4 +27,5 @@ break;
 i++;
 j++;
 }
+return (dest);
 }
