@@ -19,11 +19,11 @@ for (j = 0; *(accept + j) != '\0'; j++)
 {
 if (*(s + i) == *(accept + j))
 {
-bool = 0;
+x = 0;
 break;
 }
 }
-if (bool == 1)
+if (x == 1)
 {
 break;
 }
