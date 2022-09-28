@@ -18,6 +18,6 @@ return (1);
 }
 else
 {
-return (n * factoria(n-1));
+return (n * factoria(n - 1));
 }
 }
