@@ -2,8 +2,7 @@
 
 /**
  * free_listp2 - frees a linked list
- * @head: head of a list.
- *
+ * @head: head of a list
  * Return: no return.
  */
 void free_listp2(listp_t **head)
@@ -25,7 +24,6 @@ free(temp);
 /**
  * free_listint_safe - frees a linked list.
  * @h: head of a list.
- *
  * Return: size of the list that was freed.
  */
 size_t free_listint_safe(listint_t **h)
