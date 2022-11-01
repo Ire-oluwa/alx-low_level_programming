@@ -17,7 +17,7 @@ int i;
 int begin;
 char sys;
 
-printf("  Entry point address:               0x");
+printf(" Entry point address: 0x");
 
 sys = ptr[4] + '0';
 if (sys == '1')
